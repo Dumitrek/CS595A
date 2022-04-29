@@ -1,5 +1,5 @@
 # CS595A Final Project
-This repository is the accumulated work of the CS595A Final Project conducted by Kevin Dumitrescu, Victoria Jordan, and Ozgur Ural. The goal of the project is to be able to take a *User Generated Spotify Playlist* and a *Spotify Generated Recommended Playlist* and compare the *Audio Features* between the two playlists using a series of Regression algorithms to determine how accurate is Spotify's Recommendation system in terms of generating new playlists within close relation a user created playlist. In terms of how we were able to collect the *Audio Features* for each constructed playlist, we utilized the Spotipy library to be able to authenticate that we were the user trying to access our own playlists, and then pull the track data relevant of both the *User* and *Recommneded playlists* into their own respective Pandas dataframes and then downloaded into their own respective JSON files.
+This repository is the accumulated work of the CS595A Final Project conducted by Kevin Dumitrescu, Victoria Jordan, and Ozgur Ural. The goal of the project is to be able to take a *User Generated Spotify Playlist* and a *Spotify Generated Recommended Playlist* and compare the *Audio Features* between the two playlists using a series of Regression algorithms (2) to determine how accurate is Spotify's Recommendation system in terms of generating new playlists within close relation a user created playlist. In terms of how we were able to collect the *Audio Features* for each constructed playlist, we utilized the Spotipy library to be able to authenticate that we were the user trying to access our own playlists, and then pull the track data relevant of both the *User* and *Recommneded playlists* into their own respective Pandas dataframes and then downloaded into their own respective JSON files.
 
 # 1. Project Installation
 
@@ -36,12 +36,20 @@ Once all files have been installed within your Jupyter Notebook enviroment, open
 
 ### 2.1 Running *UserExtract* Notebook
 
-If you have note downloaded the *user_json.json* file, you can then execute this code. Simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Once the final cell has been executed, the *user_json.json* file will be generated within your *Downloads* folder on your PC. From there simply follow the instructions provided in section 1.2 to install your generated file into your Jupyter Notebook Environment.
+If you have note downloaded the *user_json.json* file, you can then execute this code (3). Simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Once the final cell has been executed, the *user_json.json* file will be generated within your *Downloads* folder on your PC. From there simply follow the instructions provided in section 1.2 to install your generated file into your Jupyter Notebook Environment.
 
 ### 2.2 Running *RecommendedExtract* Notebook
 
-If you have note downloaded the *rec_json.json* file, you can then execute this code. Simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Once the final cell has been executed, the *rec_json.json* file will be generated within your *Downloads* folder on your PC. From there simply follow the instructions provided in section 1.2 to install your generated file into your Jupyter Notebook Environment.
+If you have note downloaded the *rec_json.json* file, you can then execute this code (3). Simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Once the final cell has been executed, the *rec_json.json* file will be generated within your *Downloads* folder on your PC. From there simply follow the instructions provided in section 1.2 to install your generated file into your Jupyter Notebook Environment.
 
 ### 2.3 Running *Regression* Notebook 
 
-Once the *user_json.json* and the *rec_json.json* files have been installed into the same space as the *Regression* notebook, simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Some cells, like the generation of the *ScatterPlot Matrix* will take longer in execution time to output. Once the final cell has been executed, the results of each Regression algorithm utilized to test each Audio Feature of the *Spotify Generated Recommended Playlist* to the *User Generated Spotify Playlist* shall be displayed in a means of scoring accuracy.
+Once the *user_json.json* and the *rec_json.json* files have been installed into the same space as the *Regression* notebook, simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Some cells, like the generation of the *ScatterPlot Matrix* (1) will take longer in execution time to output. Once the final cell has been executed, the results of each Regression algorithm utilized to test each Audio Feature of the *Spotify Generated Recommended Playlist* to the *User Generated Spotify Playlist* shall be displayed in a means of scoring accuracy.
+
+# 3. Referneces
+
+(1)[Scatterplot maxtrix utilized](https://github.com/simon-th/spotify-data-project/blob/master/.ipynb_checkpoints/Extracting%20Spotify%20Audio%20Features-checkpoint.ipynb)
+
+(2)[Regression Algorithms for training and testing](https://scikit-learn.org/stable/modules/svm.html#regression)
+
+(3)[Generating Audio Features](https://github.com/simon-th/spotify-data-project/blob/master/.ipynb_checkpoints/Extracting%20Spotify%20Audio%20Features-checkpoint.ipynb))
