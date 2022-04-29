@@ -48,8 +48,8 @@ Once the *user_json.json* and the *rec_json.json* files have been installed into
 
 # 3. Referneces
 
-(1)[Scatterplot maxtrix utilized](https://github.com/simon-th/spotify-data-project/blob/master/.ipynb_checkpoints/Extracting%20Spotify%20Audio%20Features-checkpoint.ipynb)
+(1)[Scatterplot maxtrix](https://github.com/simon-th/spotify-data-project/blob/master/.ipynb_checkpoints/Extracting%20Spotify%20Audio%20Features-checkpoint.ipynb)
 
 (2)[Regression Algorithms for training and testing](https://scikit-learn.org/stable/modules/svm.html#regression)
 
-(3)[Generating Audio Features](https://github.com/simon-th/spotify-data-project/blob/master/.ipynb_checkpoints/Extracting%20Spotify%20Audio%20Features-checkpoint.ipynb))
+(3)[Generating Audio Features](https://github.com/simon-th/spotify-data-project/blob/master/.ipynb_checkpoints/Extracting%20Spotify%20Audio%20Features-checkpoint.ipynb)
