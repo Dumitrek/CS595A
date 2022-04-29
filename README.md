@@ -44,11 +44,11 @@ If you have note downloaded the *rec_json.json* file, you can then execute this 
 
 ### 2.3 Running *Regression* Notebook 
 
-Once the *user_json.json* and the *rec_json.json* files have been installed into the same space as the *Regression* notebook, simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Some cells, like the generation of the *ScatterPlot Matrix* (1) will take longer in execution time to output. Once the final cell has been executed, the results of each Regression algorithm utilized to test each Audio Feature of the *Spotify Generated Recommended Playlist* to the *User Generated Spotify Playlist* shall be displayed in a means of scoring accuracy.
+Once the *user_json.json* and the *rec_json.json* files have been installed into the same space as the *Regression* notebook, simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Some cells, like the generation of the *Correlation Matrix* (1) will take longer in execution time to output. Once the final cell has been executed, the results of each Regression algorithm utilized to test each Audio Feature of the *Spotify Generated Recommended Playlist* to the *User Generated Spotify Playlist* shall be displayed in a means of scoring accuracy.
 
 # 3. Referneces
 
-(1)[Scatterplot maxtrix](https://github.com/simon-th/spotify-data-project/blob/master/.ipynb_checkpoints/Extracting%20Spotify%20Audio%20Features-checkpoint.ipynb)
+(1)[Correlation maxtrix](https://github.com/simon-th/spotify-data-project/blob/master/.ipynb_checkpoints/Extracting%20Spotify%20Audio%20Features-checkpoint.ipynb)
 
 (2)[Regression Algorithms for training and testing](https://scikit-learn.org/stable/modules/svm.html#regression)
 
