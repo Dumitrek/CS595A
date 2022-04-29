@@ -34,14 +34,14 @@ Once all files have been installed within your Jupyter Notebook enviroment, open
 
 *If you have downloaded the "user_json.json" and the "rec_json.json" files provided and they are in the same space as the Regression notebook, then skip to section 2.3 titled Running Regression Notebook.
 
-### 2.1 Running UserExtract Notebook
+### 2.1 Running *UserExtract* Notebook
 
 If you have note downloaded the *user_json.json* file, you can then execute this code. Simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Once the final cell has been executed, the *user_json.json* file will be generated within your *Downloads* folder on your PC. From there simply follow the instructions provided in section 1.2 to install your generated file into your Jupyter Notebook Environment.
 
-### 2.2 Running RecommendedExtract Notebook
+### 2.2 Running *RecommendedExtract* Notebook
 
 If you have note downloaded the *rec_json.json* file, you can then execute this code. Simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Once the final cell has been executed, the *rec_json.json* file will be generated within your *Downloads* folder on your PC. From there simply follow the instructions provided in section 1.2 to install your generated file into your Jupyter Notebook Environment.
 
-### 2.3 Running Regression Notebook 
+### 2.3 Running *Regression* Notebook 
 
 Once the *user_json.json* and the *rec_json.json* files have been installed into the same space as the *Regression* notebook, simply start from the beginning by selecting the first cell and then procedurally run each cell till you have executed the final cell within the Notebook. Some cells, like the generation of the *ScatterPlot Matrix* will take longer in execution time to output. Once the final cell has been executed, the results of each Regression algorithm utilized to test each Audio Feature of the *Spotify Generated Recommended Playlist* to the *User Generated Spotify Playlist* shall be displayed in a means of scoring accuracy.
